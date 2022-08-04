@@ -10,17 +10,17 @@ The paper "[Combinations of Jaccard with Numerical Measures for Collaborative Fi
 
 ## Cosine Similarity
 
-* $sim(u_1, u_2) = cosine(u_1, u_2) = \frac{u_1\cdot u_2}{|u_1||u_2|}$
+* $sim(u_1, u_2) = cosine(u_1, u_2) = \cfrac{u_1\cdot u_2}{|u_1||u_2|}$
 
 ## Triangle Area measure
 
 * $u_1\cdot u_2\ge 0$ ; $sim(u_1, u_2) = TA(u_1, u_2) = $:
-    + $\frac{(u_1\cdot u_2)^2}{|u_1|(|u_2|)^3}$, if $|u_1|\leq |u_2|$
-    + $\frac{(u_2\cdot u_1)^2}{|u_2|(|u_1|)^3}$, if $|u_1|\> |u_2|$
+    + $\cfrac{(u_1\cdot u_2)^2}{|u_1|(|u_2|)^3}$, if $|u_1|\leq |u_2|$
+    + $\cfrac{(u_2\cdot u_1)^2}{|u_2|(|u_1|)^3}$, if $|u_1|\> |u_2|$
 * $u_1\cdot u_2\leq 0$ ; $TA(u_1, u_2) = TA(u_1, u_2) = $:
-    + $\frac{u_1\cdot u_2}{(|u_2|)^2}$, if $|u_1|\leq |u_2|$
-    + $\frac{u_2\cdot u_1}{(|u_1|)^2}$, if $|u_1|\> |u_2|$
+    + $\cfrac{u_1\cdot u_2}{(|u_2|)^2}$, if $|u_1|\leq |u_2|$
+    + $\cfrac{u_2\cdot u_1}{(|u_1|)^2}$, if $|u_1|\> |u_2|$
 
 ## Pearson Correlation
 
-* $sim(u_1, u_2) = pearson(u_1, u_2) = \frac{(u_1-\bar{u_1})\cdot (u_2-\bar{u_2})}{|u_1-\bar{u_1}||u_2-\bar{u_2}|}$
+* $sim(u_1, u_2) = pearson(u_1, u_2) = \cfrac{(u_1-\bar{u_1})\cdot (u_2-\bar{u_2})}{|u_1-\bar{u_1}||u_2-\bar{u_2}|}$
